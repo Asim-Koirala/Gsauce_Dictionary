@@ -51,14 +51,15 @@ i{
     position: absolute;
     cursor: pointer;
 }
-.search_bar .fas.fa-search{
+.search_bar .fa-magnifying-glass{
     left: 10px;
 }
-.search_bar .fas.fa-times{
+.search_bar .fa-xmark{
     right: 15px;
     display: none;
+    cursor: pointer;
 }
-input:valid ~ .fas.fa-times{
+input:valid ~ .fa-xmark{
     display: block;
 }
 .info{
@@ -82,7 +83,7 @@ ul li{
     position: relative;
     border-bottom: 2px solid rgb(131, 131, 131);
 }
-ul li .fas.fa-volume-up{
+ul li .fa-volume-high{
     right: 10px;
     top: 20px;
 }
